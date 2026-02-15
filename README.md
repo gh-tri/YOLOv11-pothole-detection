@@ -6,7 +6,7 @@ The notebook covers: dataset setup, training (YOLOv11s/m; fixed vs. multi-scale)
 
 ## Contents
 - `Yolo11_FineTune_pothole.ipynb` — the complete pipeline (run cells top-to-bottom)
-- `report_samples/` — qualitative test examples used for documentation, organized into:
+- `report_samples/` — qualitative test examples, 4 examples per case --organized into:
   - `typical/`   — expected/normal cases
   - `hard_fn/`   — failure cases dominated by false negatives (missed potholes)
   - `hard_fp/`   — failure cases dominated by false positives (false alarms)
